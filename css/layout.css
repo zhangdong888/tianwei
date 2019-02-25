@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+.zd_header{ display:table; width:100%; position:fixed; left:0; top:0; z-index:999;}
+.zd_header>div{ height:80px; display:table-cell;}
+.zd_header>.container{ padding:0}
+.zd_main{ position:fixed; top:80px; left:0; right:0; bottom:0}
+.zd_main iframe{ display:none}
+.zd_sanjiao{ width:272px; height:50px; display:block; background:url(../img/sanjiao1.png) center no-repeat; position:absolute; bottom:0; left:50%; margin-left:-136px}
+.zd_sanjiao1{ width:100px; height:100px; display:block; background:url(../img/sanjiao2.png) center no-repeat; position:absolute; bottom:-50px; left:50%; margin-left:-50px; z-index:99}
+.zd_table{ border-collapse:separate; border-spacing:10px; margin:auto}
+.zd_table td{ text-align:center; cursor:pointer; position:relative}
+.zd_table td img{ position:relative; z-index:2; display:none}
+.zd_table td s{ background-color:rgba(0,0,0,0.5); position:absolute; left:0; right:0; top:0; bottom:0; z-index:1}
+.zd_table td.active s{ background-color:rgba(0,0,0,0.8);}
+
+.zd_titmargin{ margin:40px auto 30px; text-align:center}
+.zd_titmargin1{ margin:80px auto 30px; text-align:center}
+.zd_titmargin2{ margin:80px auto 20px; text-align:center}
+.zd_title{ background:url(../img/line.png) center bottom no-repeat; padding:10px; font-size:36px; display:inline-block; font-style:normal; font-weight:bold}
+.zd_title span{color:#fa8b08; font-size:48px}
+.zd_title1{  background:url(../img/line2.png) center bottom no-repeat; padding:10px; font-size:36px; display:inline-block; font-style:normal; font-weight:bold; color:#fff}
+.zd_title2{ width:200px; border:1px solid #fa8b08; margin:auto; height:48px; font-style:normal; text-align:center; display:block}
+.zd_title2 span{ font-weight:bold; font-size:24px; color:#fa8b08; display:block; width:130px; margin:auto; background-color:#fff; margin-top:-20px}
+.zd_title2 span.bg-grey96{ background-color:#f5f5f5}
+.zd_title2 i{ font-style:normal; font-size:14px; color:#999; display:block; text-transform:uppercase; margin-top:5px}
+.zd_title3{color:#fa8b08; font-size:30px; display:block; font-style:normal; font-weight:bold; padding:20px 0; border-bottom:1px dashed #ddd }
+.zd_title3 span{ color:#666; margin:0 15px; font-weight:normal }
+.zd_title3 b{ font-weight:normal; border-left:1px solid #fa8b08; padding-left:10px; margin-left:10px}
+.zd_title3 b:first-child{ border:none; padding:0; margin:0}
+
+.zd_wordarea{ display:block; text-indent:30px; text-align:justify; line-height:24px;}
+.zd_wordarea1{ display:block;line-height:36px; list-style:none; margin:0; padding:0}
+.zd_wordarea2{ width:200px; margin-top:50px}
+.zd_wordarea2 span{ text-transform:capitalize; font-size:18px; color:#b2b2b2}
+.zd_wordarea2 em{ display:block; border-bottom:4px solid #fa8b08; color:#fa8b08; padding:10px 0; margin-bottom:10px; font-size:24px; font-style:normal}
+.zd_wordarea2 i{ font-style:normal; font-size:18px}
+.zd_wordarea3 h3{ border-bottom:4px solid #fa8b08; color:#fa8b08; padding-bottom:10px; margin-bottom:10px}
+.zd_wordarea3 h3 em{ display:block; font-style:normal; font-size:24px; margin-bottom:5px}
+.zd_wordarea3 h3 i{ display:block; font-style:normal; font-size:14px}
+.zd_wordarea3 span{ display:block; line-height:24px; font-size:14px}
+.zd_wordarea4 em{ margin:0 10px; border:1px solid #fa8b08; padding:10px; display:block; font-style:normal; position:relative; z-index:9}
+.zd_wordarea4 em span{ display:block; text-indent:30px; text-align:justify; background-color:rgba(224,224,224,0.9); padding:60px 40px; line-height:24px;}
+.zd_wordarea4 img{ display:block; width:100%; margin-top:-21%}
+.zd_wordarea5{ background-color:#f0f0f0; padding:30px 20px}
+.zd_wordarea5 li{ line-height:24px; text-align:justify; margin-bottom:20px; overflow:hidden}
+.zd_wordarea5 li s{ display:inline-block; width:50px; padding-left:5px; height:50px; line-height:60px; color:#fff; text-decoration:none; text-align:center; background:url(../img/list1.png) center no-repeat; font-weight:bold; font-size:22px; float:left; margin-right:10px}
+.zd_wordarea6{ border:1px dashed #ddd; padding:10px; margin-top:15%}
+.zd_wordarea6 em{ display:block; background-color:#f0f0f0; padding:40px 20px; font-style:normal}
+.zd_wordarea6 em li{ list-style-image:url(../img/list2.png); list-style-position:inside; margin-bottom:20px; text-align:justify}
+.zd_wordarea7{ text-indent:30px; line-height:24px; text-align:justify; padding:60px 40px; background-color:rgba(255,255,255,0.9); position:absolute; max-width:500px; min-height:300px; left:50%; margin-left:-250px; bottom:-30%; margin-top:-150px; z-index:9}
+
+.zd_foot{ margin-top:50px; overflow:hidden;}
+.zd_foot.active{ position:absolute; left:0; right:0; bottom:0;}
+.zd_foot .container{ min-height:100px;}
+.zd_foot .container li a{ padding:0 15px; border-left:1px solid #ddd; color:#fff; font-size:14px; cursor:pointer}
+.zd_foot .container li a:first-child{ border:none; padding-left:0}
+.zd_foot .container li span{ color:#ddd; font-size:14px}
+@media screen and (max-width:500px){
+	.zd_foot .container img{ display:none}
+	}
+.zd_operation{ position:fixed; right:36px; bottom:50px}
+.zd_operation li{ background-color:#666; width:44px; height:44px; border-radius:3px; cursor:pointer; margin-top:10px}
+.zd_operation li:hover{ background-color:#555}
+.zd_operation .zd_settop{ background:url(../img/zhiding.png) center no-repeat #666;}
+.zd_operation .zd_share{ background:url(../img/fenxiang.png) center no-repeat #666}
+.zd_operation .zd_popup{ position:absolute; left:-130px; bottom:0; display:none; width:120px; background-color:#fff; border-radius:2px; box-shadow:0 1px 8px rgba(0,0,0,0.2)}
+.zd_operation .zd_group{ padding:10px}
+.zd_operation .zd_group span{ display:block; height:40px; line-height:40px; font-size:14px; cursor:pointer; padding-left:40px;}
+.zd_operation .zd_group .zd_weixin{ background:url(../img/weixing.png) 5px center no-repeat;}
+.zd_operation .zd_group .zd_weibo{ background:url(../img/weibo.png) 5px center no-repeat;}
+.zd_operation .zd_group .zd_qq{ background:url(../img/qq.png) 5px center no-repeat;}
+.zd_operation .zd_arr{ position:absolute; right:-10px; bottom:0; width:10px; height:100px; background:url(../img/code_arrow.png) left 75px no-repeat}
+
+.zd_date{ overflow:hidden; width:100px; }
+.zd_date .zd_dateup{ display:block; width:24px; height:20px; background:url(../img/sanjiao-up.png); cursor:pointer; margin:auto}
+.zd_date .zd_datedown{ display:block; width:24px; height:20px; background:url(../img/sanjiao-down.png); cursor:pointer; margin:auto}
+.zd_date dl{ background:url(../img/line1.png) center repeat-y; margin:10px auto; text-align:center;height:370px; overflow:hidden; position:relative }
+.zd_date dl dd{ display:inline-block; margin-top:30px; font-size:18px; font-weight:bold; background-color:#fff; width:60px; height:60px; line-height:60px;color:#fa8b08;  border:3px solid  #fa8b08;border-radius:100%; cursor:pointer}
+.zd_date dl dd:first-child{ margin-top:0}
+.zd_date dl dd.active{ border:3px solid #fff; background-color:#fa8b08; width:90px; height:90px; line-height:90px; color:#fff}
+.zd_date .zd_datebox{ position:absolute; width:100%; top:0}
+
+.zd_zuzhi{ max-width:1280px; margin:auto}
+.zd_lunbo1{ background-color:#333; border:10px solid #666; height:450px; overflow:hidden; position:relative}
+.zd_lunbo1 ul{ position:absolute;white-space:nowrap; top:55px; }
+.zd_lunbo1 li{ width:500px; display:inline-block; text-align:center;}
+@media screen and (max-width:500px){
+	.zd_lunbo1{ height:200px}
+	.zd_lunbo1 ul{width:100%;top:25px}
+	.zd_lunbo1 li{width:100%}
+	.zd_lunbo1 li img{ width:60%}
+	}
+.zd_lunbo2{ display:table; width:100%; }
+.zd_lunbo2 a{ display:table-cell; width:30px; height:30px;}	
+.zd_lunbo2 .toleft{ background:url(../img/toleft.png) center no-repeat; cursor:pointer}
+.zd_lunbo2 .toright{ background:url(../img/toright.png) center no-repeat; cursor:pointer}
+.zd_lunbo2 ul{ display:table-cell; position:relative; background:url(../img/line3.png) repeat-x center; white-space:nowrap;}
+.zd_lunbo2 ul .zd_jieduan{ position:absolute; width:100%; height:80px; overflow:hidden;}
+.zd_lunbo2 ul .zd_xuline1{ width:60px; height:30px; float:left; background:url(../img/lin4.png) center repeat-x; display:none}
+.zd_lunbo2 ul .zd_xuline2{ width:60px; height:30px; float:right; background:url(../img/lin4.png) center repeat-x}
+.zd_lunbo2 ul li{ width:200px;height:30px;background:url(../img/radio2.png) center no-repeat; text-align:center; display:inline-block;}
+.zd_lunbo2 ul li span{ display:inline-block; margin-top:30px; line-height:32px; padding:0 5px; cursor:pointer }
+.zd_lunbo2 ul li.active{ background:url(../img/radio1.png) center no-repeat;}
+.zd_lunbo2 ul li.active span{background-color:#ff5c03; color:#fff}
+
+.zd_prodoct{ text-align:center; display:none}
+.zd_prodoct span{ display:block; margin:10px auto}
+
+.zd_rongyu{ border:1px solid #fba053}
+.zd_rongyu thead tr td{ background-color:#fa8b08; color:#fff; border:solid #fba053; border-width:0 1px; vertical-align:middle}	
+.zd_rongyu tbody tr td{ background-color:#fff;border:solid #fba053; border-width:0 1px;}
+.zd_rongyu tbody tr:nth-child(even) td{ background-color:#f7ddc8}
+
+.zd_noodmedu span{ background-color:#eeeeee; line-height:28px; display:inline-block; padding:0 10px; margin:0 7px; cursor:pointer; min-width:70px; text-align:center; margin-bottom:10px}
+.zd_noodmedu span.active{background-color:#fa8b08; color:#fff}
+.zd_nooddetail{ width:100%; height:350px; display:table; padding:50px 0; background-color:#fae8c8; margin-top:30px }
+.zd_nooddetail .zd_turnleft{ display:table-cell; width:100px; background:url(../img/turnleft.png) center no-repeat; cursor:pointer}
+.zd_nooddetail .zd_turnright{ display:table-cell; width:100px; background:url(../img/turnright.png) center no-repeat; cursor:pointer}
+.zd_nooddetail ul{ display:table-cell; position:relative; white-space:nowrap; overflow:hidden}
+.zd_nooddetail ul li{ display:inline-block; margin:0 25px; background-color:#fff; cursor:pointer}
+.zd_nooddetail ul li em{ width:200px; height:200px; display:block; overflow:hidden}
+.zd_nooddetail ul li em img{ width:100%}
+.zd_nooddetail ul li span{ display:block; line-height:50px; text-align:center; font-weight:bold; color:#666; font-size:14px}
+
+.zd_list{ overflow:hidden; border-bottom:2px solid #fa8b08; margin-bottom:20px}
+.zd_list span{ background-color:#fa8b08; color:#fff; height:32px; line-height:34px; padding:0 10px; font-weight:bold; text-align:center; display:block; float:left}
+.zd_list i{ display:block; float:left; width:16px; height:32px; background:url(../img/list3.png) left bottom no-repeat}
+
+.zd_dongtai{ padding:20px 0; margin:0; border-bottom:1px dashed #ddd;}
+.zd_dongtai .media-left{ height:140px; width:200px; overflow:hidden; background-color:#f5f5f5; display:block; float:left; margin-right:15px; padding:0}
+.zd_dongtai .media-left:first-child{ background-color:#f79f17; height:140px; padding-left:20px; width:140px; margin-right:10px}
+.zd_dongtai .media-left:first-child span{ color:#fff; font-size:24px; display:block;  height:30px;  }
+.zd_dongtai .media-left:first-child i{ height:1px; width:30px; background-color:#fff; display:block; margin:10px 0}
+.zd_dongtai .media-left:first-child span:first-child{  font-size:60px; font-weight:bold; height:60px; line-height:60px; margin-top:10px}
+.zd_dongtai .media-object{ width:100%}
+.zd_dongtai .media-heading{ font-size:24px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; cursor:pointer}
+.zd_dongtai .media-heading:hover{ text-decoration:underline; color:#fa8b08}
+.zd_dongtai .media-body p{ height:60px; margin:10px 0;overflow:hidden;line-height:20px;}
+.zd_dongtai .media-body h5{color:#999}
+
+.zd_notice li{ background:url(../img/line3.png) 30px top repeat-y; padding-left:60px; padding-top:15px}
+.zd_notice li h4{ background:url(../img/radio2.png) left center no-repeat; padding-left:40px; margin-left:-39px; color:#fa8b08; font-weight:bold}
+.zd_notice li h3{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; cursor:pointer}
+.zd_notice li h3:hover{ text-decoration:underline; color:#fa8b08}
+.zd_notice li h5{ max-height:60px; box-sizing:initial;overflow:hidden; text-overflow:ellipsis; color:#666; line-height:20px; font-size:16px; padding-bottom:15px; border-bottom:1px dashed #ddd; margin-bottom:0}
+
+.zd_gupiao .zd_bg-color-orange,.zd_gupiao .zd_bg-color-60{ overflow:hidden; padding:30px 0 30px 30px}
+.zd_gupiao .zd_col-fen-2 *{ color:#fff;}
+.zd_gupiao .zd_col-fen-2 h2{ font-weight:bold; margin-top:10px}
+.zd_gupiao .zd_col-fen-2 h4{ margin-bottom:15px}
+.zd_gupiao .zd_col-fen-2 i{ display:block; width:30px; height:1px; background-color:#fff}
+
+.zd_fuli{ overflow:hidden}
+.zd_fuli li{ width:20%; float:left; text-align:center;}
+.zd_fuli li span{ display:block; margin-top:30px; margin-bottom:30px}
+
+.zd_touch{ overflow:hidden; text-align:center; margin-bottom:60px}
+.zd_touch li{ padding:60px 0;list-style:none;width:300px}
+
+.zd_join{ border:1px solid #ddd; background-color:#fff; padding:10px 0 30px 20px; margin-bottom:20px; cursor:pointer}
+.zd_join h3{color:#fa8b08; font-weight:bold; font-size:20px}
+.zd_join dl{ display:table; width:100%; margin-top:20px}
+.zd_join dl dd{ display:table-cell; }
+.zd_join dl dd *{ vertical-align:middle}
+
+.zd_ollist{ margin:0; padding:0; list-style-position:inside; line-height:24px}
+.zd_ollist1{ margin:0; padding:0; list-style:none; line-height:24px}
+
+
+.zd_liunav h3{ color:#fff; text-align:center; line-height:72px; background-color:#999; cursor:pointer}
+.zd_liunav h3.active{background-color:#fa8b08; }
+.zd_liuyan{ display:none}
+.zd_liuyan .form-control{ border-radius:0; height:42px; line-height:42px; text-indent:30px; font-size:16px}
+.zd_liuyan textarea.form-control{ height:200px; padding-top:0}
+.zd_liuyan .btn-warning{ background-color:#fa8b08; border-radius:0;height:42px; font-size:16px}
+.zd_liuyan .zd_liuicon1{ background:url(../img/name.png) 10px 7px no-repeat;}
+.zd_liuyan .zd_liuicon2{ background:url(../img/dianhua.png) 10px 7px no-repeat;}
+.zd_liuyan .zd_liuicon3{ background:url(../img/youxiang.png) 10px 7px no-repeat;}
+.zd_liuyan .zd_liuicon4{ background:url(../img/liuyan.png) 10px 10px no-repeat}
+.zd_liuyan .radio-inline{ padding-left:30px; background:url(../img/check2.png) left center no-repeat; cursor:pointer}
+.zd_liuyan .radio-inline.active{background:url(../img/check1.png) left center no-repeat; color:#fa8b08; font-weight:bold}
+.zd_liuyan .radio-inline input[type="radio"]{ width:24px; height:24px; opacity:0;}
+.zd_liuyan .radio-inline:first-child{ margin-left:10px}
+@media screen and (max-width:500px){
+	.zd_sanjiao,.zd_sanjiao1{ display:none}
+	.zd_titmargin{ margin:20px auto 15px; text-align:center}
+	.zd_titmargin1{ margin:70px auto 20px; text-align:center}
+	.zd_titmargin2{ margin:70px auto 15px; text-align:center}
+	.zd_title{ font-size:24px}
+	.zd_title span{ font-size:36px}
+	.zd_title1{ font-size:24px}
+	.zd_title3{ font-size:24px; padding-bottom:10px}
+	.zd_title3 span{ margin:0 5px}
+	.zd_wordarea3 h3 em{ font-size:20px}
+	.zd_wordarea3 h3 i{ line-height:20px}
+	.zd_dongtai .media-body p{ height:40px}
+	.zd_dongtai{ padding:10px 0 0}
+	.zd_liuyan .form-control{ margin-bottom:10px}
+	.zd_touch li{ width:100%}
+	.zd_touch li{ float:none!important}
+	.zd_fazhan .col-sm-9{ width:70%; float:left; padding-left:10px}
+	.zd_fazhan .col-sm-3{ width:30%; float:left}
+	.zd_margin-bot-60{ margin-bottom:30px}
+	}

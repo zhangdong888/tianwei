@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*{ font-size:16px; outline:none}
+ul,dl,dd{ margin:0; padding:0; list-style:none}
+/********font-size********/
+.zd_font-13{ font-size:13px}
+.zd_font-14{ font-size:14px}
+.zd_font-16{ font-size:16px}
+.zd_font-17{ font-size:17px}
+.zd_font-18{ font-size:18px}
+.zd_font-20{ font-size:20px}
+.zd_font-24{ font-size:24px}
+.zd_font-30{ font-size:30px}
+.zd_font-36{ font-size:36px}
+.zd_font-48{ font-size:48px}
+
+/********line-height********/
+.zd_line-height-24{ line-height:24px}
+.zd_line-height-36{ line-height:36px}
+.zd_line-height-48{ line-height:48px}
+.zd_line-height-72{ line-height:72px}
+
+/********font-color********/
+.zd_font-color-10{ color:#111;}
+.zd_font-color-20{ color:#333;}
+.zd_font-color-40{ color:#666;}
+.zd_font-color-60{ color:#999;}
+.zd_font-color-80{ color:#ccc;}
+.zd_font-color-white{ color:#fff;}
+.zd_font-color-orange{ color:#f79f17;}
+
+/********bg-color********/
+.zd_bg-color-black{ background-color:#000;}
+.zd_bg-color-white{ background-color:#fff;}
+.zd_bg-color-98{ background-color:#fafafa;}
+.zd_bg-color-96{ background-color:#f5f5f5;}
+.zd_bg-color-94{ background-color:#f4f4f4;}
+.zd_bg-color-60{ background-color:#999;}
+.zd_bg-color-16{ background-color:#2a2828;}
+.zd_bg-color-yellow{ background-color:#f5ca01}
+.zd_bg-color-orange{ background-color:#fa8b08}
+.zd_bg-color-qianred{ background-color:#ffe3d1}
+.zd_bg-color-qianblue{ background-color:#b6daf8}
+.zd_bg-color-qiangreen{ background-color:#c5e795}
+.zd_bg-color-qianzi{ background-color:#d1bbf9}
+.zd_bg-color-qianred:hover{ background-color:#fbceb1}
+.zd_bg-color-qianblue:hover{ background-color:#93c9f6}
+.zd_bg-color-qiangreen:hover{ background-color:#b8e676}
+.zd_bg-color-qianzi:hover{ background-color:#bc9df5}
+.zd_bg-color-qianred1{ background-color:#f9e0e0}
+.zd_bg-color-qianblue1{ background-color:#ddf2f4}
+.zd_bg-color-qiangreen1{ background-color:#ebf3da}
+
+
+/********font-style********/
+.zd_font-weight{ font-weight:bold}
+.zd_font-normal{ font-style:normal}
+.zd_font-noneline{ text-decoration:none}
+.zd_font-underline{ text-decoration:underline}
+.zd_pointer{ cursor:pointer}
+
+/********text-align********/
+.zd_text-left{ text-align:left}
+.zd_text-center{ text-align:center}
+.zd_text-right{ text-align:right}
+.zd_text-just{ text-align:justify}
+.zd_text-indent-30{ text-indent:30px}
+
+/********float********/
+.zd_float-left{ float:left}
+.zd_float-right{ float:right}
+.zd_float-clear{ clear:both }
+
+/********display********/
+.zd_display-none{ display:none}
+.zd_display-inline{ display:inline}
+.zd_display-inblock{ display:inline-block}
+.zd_display-block{ display:block}
+.zd_display-table{ display:table}
+.zd_display-cell{ display:table-cell}
+.zd_over-hidden{ overflow:hidden}
+.zd_over-auto{ overflow:auto}
+.zd_pos-rel{ position:relative}
+.zd_pos-abs{ position:absolute}
+.zd_pos-flex{ position:fixed}
+.zd_pos-stat{ position:static}
+
+/*********************margin**************/
+.zd_margin-auto{ margin:auto}
+.zd_margin-top-5{ margin-top:5px}
+.zd_margin-top-10{ margin-top:10px}
+.zd_margin-top-20{ margin-top:20px}
+.zd_margin-top-40{ margin-top:40px}
+.zd_margin-top-60{ margin-top:60px}
+.zd_margin-top-80{ margin-top:80px}
+.zd_margin-bot-5{ margin-bottom:5px}
+.zd_margin-bot-10{ margin-bottom:10px}
+.zd_margin-bot-20{ margin-bottom:20px}
+.zd_margin-bot-60{ margin-bottom:60px}
+.zd_margin-left-5{ margin-left:5px}
+.zd_margin-left-10{ margin-left:10px}
+.zd_margin-left-20{ margin-left:20px}
+.zd_margin-right-5{ margin-right:5px}
+.zd_margin-right-10{ margin-right:10px}
+.zd_margin-right-20{ margin-right:20px}
+
+/*********************padding**************/
+.zd_padding-top-5{ padding-top:5px}
+.zd_padding-top-10{ padding-top:10px}
+.zd_padding-top-20{ padding-top:20px}
+.zd_padding-top-40{ padding-top:40px}
+.zd_padding-bot-5{ padding-bottom:5px}
+.zd_padding-bot-10{ padding-bottom:10px}
+.zd_padding-bot-20{ padding-bottom:20px}
+.zd_padding-left-5{ padding-left:5px}
+.zd_padding-left-10{ padding-left:10px}
+.zd_padding-left-20{ padding-left:20px}
+.zd_padding-right-5{ padding-right:5px}
+.zd_padding-right-10{ padding-right:10px}
+.zd_padding-right-20{ padding-right:20px}
+
+/**********************col***************************/
+.zd_col-fen-1{ width:100%}
+.zd_col-fen-2{ float:left; width:50%}
+.zd_col-fen-3{ float:left; width:33.zd_33%}
+.zd_col-fen-4{ float:left; width:25%}
+.zd_col-fen-5{ float:left; width:20%}
+.zd_col-fen-6{ float:left; width:16.zd_66%}
+
+
+
